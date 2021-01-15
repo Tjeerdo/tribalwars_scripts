@@ -281,7 +281,7 @@ javascript:/**CREATED BY: iwantwin, twscripts@iwantwin.nl at 29-03-2014, edited 
       //Determine the chosen way to rename the users's villages
       //Set parameters for the way to rename villages
       $popup.find( "#namingMethodSubmit" ).on( "click", function () {
-        var namingMethod = $radioButtons.andBack().find( ':checked' ).val();
+        var namingMethod = $radioButtons.addBack().find( ':checked' ).val();
         var transformVillageNameMethod;
         switch ( namingMethod ) {
           case "nameOnly":
